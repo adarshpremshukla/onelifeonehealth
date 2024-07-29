@@ -242,11 +242,14 @@ img {
   }
 }
 
-@media (max-width:380px) {
+@media (min-width:300px) and (max-width:380px) {
   nav{
     top:4rem
   }
   .health{
-    font-size: 30px;
+    font-size: 25px;
+  }
+  .learnmore{
+    margin-bottom: 4rem;
   }
 }
