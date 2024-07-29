@@ -241,3 +241,12 @@ img {
     overflow-y: auto;
   }
 }
+
+@media (max-width:380px) {
+  nav{
+    top:4rem
+  }
+  .health{
+    font-size: 30px;
+  }
+}
