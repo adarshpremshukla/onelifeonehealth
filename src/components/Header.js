@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-3xl font-sans font-bold text-black-800">One Life Health Care</div>
         <div className="md:hidden flex items-center">
-          <button onClick={toggleMenu} className="text-black-800 focus:outline-none">
+          <button onClick={toggleMenu} className="text-black-800 focus:outline-none toggle">
             {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>
         </div>
